@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>doc</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"
+    integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+    h2,
+    a {
+      font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    a:hover {
+      background-color: gray;
+      font-size: 20px;
+      border-radius: 10px;
+
+
+
+
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <div class="container">
+    <!-- Brand -->
+    <a class="navbar-brand h-1" href="#">CAFE</a>
+
+    <!-- Hamburger button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="about.html" class="nav-link text-black">ABOUT</a></li>
+        <li class="nav-item"><a href="menu.html" class="nav-link text-black">MENU</a></li>
+        <li class="nav-item"><a href="gallery.html" class="nav-link text-black">GALLERY</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link text-black">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="container-fluid ">
+    <div class="row">
+      <div class="col-12">
+        <div id="my" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="coffee.png" class="d-block w-100 img-fluid" alt="Coffee">
+            </div>
+            <div class="carousel-item">
+              <img src="cheesecake.png" class="d-block w-100 img-fluid"  alt="Cheesecake">
+            </div>
+            <div class="carousel-item">
+              <img src="about.png" class="d-block w-100 img-fluid"  alt="About">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#my" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#my" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container pt-5">
+    <div class="row align-items-center">
+      <!-- Image -->
+      <div class="col-md-6 pt-3">
+        <img src="about.png" class="img-fluid rounded shadow">
+      </div>
+      <!-- Text -->
+      <div class="col-md-6">
+        <h2 class="fw-bold pt-5">About Our Cafe</h2>
+        <p>
+          At CAFE, every cup tells a story.
+          Nestled in the heart of the city, our café is more than just a place to grab a drink — it’s a space
+          where aromas, flavors, and conversations blend into one.</p>
+        <p>
+
+          We believe coffee is an art, and desserts are happiness served on a plate. From handpicked beans
+          roasted to perfection, to desserts crafted with love and care, every detail is designed to give you
+          comfort in every sip and bite.</p>
+        <p>
+
+          Our cozy interiors, warm lighting, and soulful playlists make CAFE the perfect escape — whether
+          you’re starting your morning with a latte, sharing laughter over brownies, or winding down with a
+          book and a cappuccino.</p>
+        <p>
+
+          We are passionate about sustainability, community, and creating moments that linger long after your
+          last sip.
+          Step inside, slow down, and let the world pause while you enjoy the little joys of life.
+        </p>
+        <a href="menu.html" class="btn btn-info mt-3">Explore Our Menu</a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <div class="container pt-5">
+    <h2 class="fw-bold text-center mb-4">Contact Us</h2>
+    <p class="text-center text-muted mb-5">
+      Have a question, feedback, or just want to say hello? We’d love to hear from you!
+    </p>
+
+    <div class="row g-4">
+      <!-- Contact Form -->
+      <div class="col-md-5">
+        <div class="card shadow-sm p-4">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Write your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-info w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4">
+        <div class="card p-4">
+          <h5 class="fw-bold mb-3">Visit Us</h5>
+          <p class="mb-1"><strong>Address:</strong> Dr. Reddy’s, Miyapur, Hyderabad</p>
+          <p class="mb-1"><strong>Phone:</strong> +91 98765 43210</p>
+          <p class="mb-3"><strong>Email:</strong> hello@cafe.com</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.2676739923263!2d78.3562000746293!3d17.494731199705004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9300472c8303%3A0x4321b9c6e05b642d!2sTech%20Jobs%20(Dr%20Reddy&#39;s%20Foundation)!5e0!3m2!1sen!2sin!4v1757835734059!5m2!1sen!2sin"
+            class="w-100" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+
+          </iframe>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="container-fluid text-center pt-5">
+    <footer class="bg-light text-black">
+      <h4>Folow us</h4>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+
+      <a href=""><i class="fa-brands fa-threads"></i></a>
+      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+      <a href=""><i class="fa-brands fa-youtube"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <p class="mb-0">© 2025 CAFE. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+
+</html>
